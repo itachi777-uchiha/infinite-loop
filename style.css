@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+header ul li a:hover {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.active {
+    display: flex;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    color: #007bff;
+}
+
+.fa-bars {
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+section#home {
+    background-image: url(https://img.freepik.com/free-photo/anime-moon-landscape_23-2151645871.jpg?semt=ais_user_personalization&w=740&q=80);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.home-content h1 {
+    margin: 10px 0;
+    text-shadow: 2px 2px 2px #333;
+    font-size: 40px;
+}
+
+.home-content p {
+    padding: 0 42%;
+    text-shadow: 2px 2px 2px #333;
+    line-height: 1.9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-content i {
+    position: absolute;
+    bottom: 50px;
+    background-color: #357;
+    padding: 20px 45px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.home-content i:hover {
+    transform: scale(1.1);
+    background-color: #37A;
+}
+
+.do-text {
+    display: flex;
+    gap: 20px;
+    align-items: safe;
+}
+
+.do-left p {
+    width: 70%;
+    line-height: 1.9;
+    color: #707070;
+    margin: 10px 0;
+    font-size: 19px;
+}
+
+.do-left h2 {
+    color: #37A;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.do-bottom {
+    margin-top: 50px;
+}
+
+.do-icon i {
+    color: #37A;
+    font-size: 57px;
+}
+
+section#do {
+    padding: 50px 10%;
+}
+
+.do-top p {
+    margin: 10px 0;
+    line-height: 1.9;
+    font-size: 18px;
+    width: 72%;
+}
+
+.do-top h1 {
+    font-size: 40px;
+    color: #37A;
+}
+
+.do-bottom {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.do-left button {
+    padding: 8px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #37A;
+    color: white;
+    border: 1px solid #37A;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.do-left button:hover {
+    background-color: #007bff;
+}
+
+section#testimonials {
+    background-image: linear-gradient(rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/anime-moon-landscape_23-2151645871.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+
+.testimonial-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+}
+
+.testimonial-title h1 {
+    font-size: 41px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.testimonial-title p {
+    padding: 0 30%;
+    line-height: 1.9;
+}
+
+.testimonial-card {
+    width: 400px;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-card p:nth-child(3) {
+    text-align: end;
+    font-style: italic;
+}
+
+.testimonial-card p {
+    padding: 10px 10%;
+    line-height: 1.8;
+}
+
+.testimonial-header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+section#gallery {
+    padding: 50px 0;
+}
+
+.gallery-title {
+    text-align: center;
+}
+
+.gallery-title h1 {
+    color: #007bff;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.gallery-title p {
+    padding: 0 30%;
+    line-height: 1.7;
+    color: #333;
+}
+
+.gallery-img {
+    position: relative;
+}
+
+.gallery-img img {
+    width: 250px;
+}
+
+.gallery-img h1 {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    font-weight: lighter;
+    width: 10%;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: white;
+    transform: translate(0, -20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-img:hover h1 {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.gallery-img h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: 25px;
+    color: white;
+    transform: translate(0, -20px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-img:hover h2 {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.gallery-img::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #007bff;
+    height: 6px;
+    bottom: 0;
+    width: 100%;
+    transition: 0.3s;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.gallery-img:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gallery-box {
+    display: flex;
+    padding: 0 10%;
+    gap: 40px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.gallery-img::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(129, 126, 126, 0.5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-img:hover::before {
+    opacity: 1;
+}
+
+section#contact {
+    background-image: linear-gradient(rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/anime-moon-landscape_23-2151645871.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    height: 800px;
+}
+
+.contact-box {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    gap: 40px;
+    justify-content: center;
+}
+
+.contact-box form {
+    width: 350px;
+}
+
+.contact-box form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.contact-box form textarea {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    height: 200px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.contact-box form button {
+    padding: 5px 80px;
+    color: white;
+    margin-top: 20px;
+    background-color: #37A;
+    border: 1px solid #37A;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-box form button:hover {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.contact-box form textarea::placeholder {
+    color: white;
+}
+
+.contact-box form input::placeholder {
+    color: white;
+}
+
+.scroll {
+    color: black;
+    background-color: white;
+}
+
+.scroll a {
+    color: black;
+    transition: 0.3s;
+}
+
+.contact-icon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+    font-size: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact-icon:hover {
+    color: #007bff;
+}
+
+.contact-icon p {
+    font-size: 17px;
+}
+
+.footer-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media(max-width: 1200px) {
+    header ul li {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .home-content p {
+        padding: 0 30%;
+    }
+
+    .gallery-box {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-title p {
+        padding: 0 20%;
+    }
+
+    section#testimonials {
+        height: 100%;
+        padding: 150px;
+    }
+
+    .testimonial-title p {
+        padding: 0 10%;
+    }
+
+    .testimonial-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 800px) {
+    .do-top p {
+        width: 100%;
+    }
+
+    .do-text p {
+        width: 100%;
+    }
+
+    .do-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonial-title p {
+        padding: 0;
+    }
+
+    .testimonial-card p {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-box form {
+        width: 100%;
+    }
+
+    .contact-box {
+        width: 70%;
+    }
+
+    .contact-box form input {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .testimonial-title p {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .testimonial-title h1 {
+        font-size: 30px;
+    }
+
+    .testimonial-cards {
+        margin-top: 150px;
+    }
+}
