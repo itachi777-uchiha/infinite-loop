@@ -34,12 +34,6 @@ infinity-loop/
 
 Live Demo: https://your-demo-link.com
 
-## 💻 Installation
-
-1. Clone repository
-```bash
-git clone https://github.com/your-username/infinity-loop.git
-
 Open index.html in browser
 
 📱 Responsive
@@ -57,3 +51,11 @@ Desktop
 Free to use for learning and practice.
 
 ⭐ Agar loyiha yoqqan bo‘lsa, repo ga star bosishni unutmang!
+
+## 💻 Installation
+
+1. Clone repository
+```bash
+git clone https://github.com/your-username/infinity-loop.git
+
+Open index.html in browser
