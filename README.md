@@ -1,109 +1,59 @@
-🌐 Infinity Loop
+# 🌐 Infinity Loop
 
-Infinity Loop — zamonaviy, chiroyli va to‘liq responsive landing page web sayt.
-Loyiha HTML, CSS va JavaScript yordamida yaratilgan bo‘lib, AOS (Animate On Scroll) animatsiyalari bilan boyitilgan.
+Infinity Loop — bu zamonaviy, chiroyli va to‘liq responsive web sayt.  
+Sayt HTML, CSS va Bootstrap yordamida yaratilgan bo‘lib, AOS animatsiyalari bilan boyitilgan.
 
-Sayt barcha qurilmalarda (mobile, tablet, desktop) mukammal ishlaydi va silliq animatsiyalar bilan foydalanuvchiga yaxshi tajriba beradi.
+## 🚀 Features
 
-🚀 Demo
+✅ Responsive design (mobile, tablet, desktop)  
+✅ Smooth scroll animations (AOS library)  
+✅ Clean & modern UI  
+✅ Bootstrap grid system  
+✅ Fast loading  
+✅ Easy to customize  
 
-🔗 Live Preview: https://your-demo-link.com
+## 🛠 Technologies Used
 
-(yoki GitHub Pages link qo‘ying)
+- HTML5
+- CSS3
+- Bootstrap 5
+- AOS (Animate On Scroll)
 
-✨ Features
+## 📁 Project Structure
 
-✅ Fully Responsive Design
-✅ Modern & Clean UI
-✅ Smooth Scroll Animations (AOS)
-✅ Mobile Friendly
-✅ Simple Folder Structure
-✅ Fast Loading
-✅ Easy to Customize
-
-🛠 Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla JS)
-
-AOS Animation Library
-
-📁 Project Structure
 infinity-loop/
 │
 ├── index.html
 ├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+│ └── style.css
 ├── img/
-│   └── images files
+├── js/
 └── README.md
 
-⚙️ Installation & Usage
-1. Repository clone qiling
+## 📸 Preview
+
+Live Demo: https://your-demo-link.com
+
+## 💻 Installation
+
+1. Clone repository
+```bash
 git clone https://github.com/your-username/infinity-loop.git
 
-2. Papkaga kiring
-cd infinity-loop
+Open index.html in browser
 
-3. Browserda oching
+📱 Responsive
 
-index.html ni ikki marta bosib oching
-yoki Live Server ishlating
+Sayt barcha qurilmalarda to‘g‘ri ishlaydi:
 
-📱 Responsive Support
+Mobile
 
-Sayt quyidagi ekranlarda to‘g‘ri ishlaydi:
+Tablet
 
-📱 Mobile
-
-📲 Tablet
-
-💻 Laptop
-
-🖥 Desktop
-
-🎯 Purpose
-
-Bu loyiha:
-
-Portfolio uchun
-
-Practice uchun
-
-Frontend o‘rganish uchun
-
-Bootstrap va AOS bilan ishlash uchun
-
-mo‘ljallangan.
-
-📸 Screenshots
-
-Bu yerga sayt rasmlarini qo‘shishingiz mumkin:
-
-/img/screenshot1.png
-/img/screenshot2.png
-
-🔮 Future Improvements
-
-Dark mode qo‘shish
-
-More animations
-
-Contact form
-
-Backend integration
-
-👨‍💻 Author
-
-Created with ❤️ by Your Name
-
-GitHub: https://github.com/itachi777_uchiha
+Desktop
 
 📄 License
 
-This project is free to use for learning and educational purposes.
+Free to use for learning and practice.
+
+⭐ Agar loyiha yoqqan bo‘lsa, repo ga star bosishni unutmang!
